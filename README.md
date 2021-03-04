@@ -1,27 +1,29 @@
-A serverless app offering REST API created using Node JS along with express, serverless-http and mongodb. 
+# Serverless REST API with Node JS
 
-# Features
-*Express
-*REST API
-*Mongodb
-*Serverless-http
-*AWS Lambda
+Restful app that was initially created to run locally but went serverless by migrating it to AWS Lambda.
 
-# Routes
-visit https://8wbqa5qh84.execute-api.us-east-1.amazonaws.com/dev/
-
-POST /users 
-GET /users
-GET /users/:id
-DELETE /users/:id
-PUT /users/:id
-
-# CURL
+## Installation
+- git clone https://github.com/hamza-kay/Node-rest-app.git
+- cd node-rest-app
+- npm install
+- npm start
+- optional: include .env in your .gitignore
 
 
-# Postman
+## Features
+
+- Express
+- Serverless-http
+- Mongodb
+- AWS Lambda
 
 
+## Routes
 
+- Visit https://8wbqa5qh84.execute-api.us-east-1.amazonaws.com/dev/
 
-
+  - POST /users
+  - GET /users
+  - GET /users/:id
+  - DELETE /users/:id
+  - PUT /users/:id
