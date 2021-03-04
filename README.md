@@ -47,11 +47,11 @@ Restful app that was initially created to run locally went serverless by migrati
 
 ## Data Structure
 
-``` { 
+    { 
     "name": "test",
     "email": "test@test.com,
     "password": "test123" 
-    } ```
+    }
 
 
 
