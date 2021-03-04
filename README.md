@@ -45,4 +45,12 @@ Restful app that was initially created to run locally went serverless by migrati
 - Update a user using id of the user with :
    - ```curl -XPUT -H "Content-type: application/json" -d '{"name": "test", "email": "test@gmail.com","password": "testing"}' 'https://8wbqa5qh84.execute-api.us-east-1.amazonaws.com/dev/users/{id}'```
 
+## Data Structure
+
+```{ "name": "test",
+    "email": "test@test.com,
+    "password": "test123"```
+
+
+
 
