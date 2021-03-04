@@ -36,7 +36,7 @@ Restful app that was initially created to run locally went serverless by migrati
 - Get all users:
    - ```curl -XGET 'https://8wbqa5qh84.execute-api.us-east-1.amazonaws.com/dev/users'```
 
-- Get a user using id of the user:
+- Get a user using id:
    - ```curl -XGET 'https://8wbqa5qh84.execute-api.us-east-1.amazonaws.com/dev/users/{id}'```
 
 - Delete a user using id:
