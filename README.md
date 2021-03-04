@@ -31,6 +31,5 @@ Restful app that was initially created to run locally but went serverless by mig
 ## CURL
 
 - Create new user with:
-  - 
 ```curl -XPOST -H "Content-type: application/json" -d '{"name":"smith", "email":"test@test.com", "password":"test" }' 'https://8wbqa5qh84.execute-api.us-east-1.amazonaws.com/dev/users'```
 
