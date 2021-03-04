@@ -27,3 +27,10 @@ Restful app that was initially created to run locally but went serverless by mig
   - GET /users/:id
   - DELETE /users/:id
   - PUT /users/:id
+
+## CURL
+
+```
+test
+```
+
