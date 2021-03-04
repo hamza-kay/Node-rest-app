@@ -1,6 +1,6 @@
 # Serverless REST API with Node JS
 
-Restful app that was initially created to run locally but went serverless by migrating it to AWS Lambda.
+Restful app that was initially created to run locally went serverless by migrating it to AWS Lambda.
 
 ## Installation
 - git clone https://github.com/hamza-kay/Node-rest-app.git
