@@ -30,19 +30,19 @@ Restful app that was initially created to run locally went serverless by migrati
 
 ## CURL
 
-- Create new user with:
+- Create new user:
    - ```curl -XPOST -H "Content-type: application/json" -d '{"name":"smith", "email":"test@test.com", "password":"test" }' 'https://8wbqa5qh84.execute-api.us-east-1.amazonaws.com/dev/users'```
 
-- Get all users with:
+- Get all users:
    - ```curl -XGET 'https://8wbqa5qh84.execute-api.us-east-1.amazonaws.com/dev/users'```
 
-- Get a user using id of the user with :
+- Get a user using id of the user:
    - ```curl -XGET 'https://8wbqa5qh84.execute-api.us-east-1.amazonaws.com/dev/users/{id}'```
 
-- Delete a user using id of the user with :
+- Delete a user using id:
    - ```curl -XDELETE 'https://8wbqa5qh84.execute-api.us-east-1.amazonaws.com/dev/users/{id}'```
 
-- Update a user using id of the user with :
+- Update a user using id:
    - ```curl -XPUT -H "Content-type: application/json" -d '{"name": "test", "email": "test@gmail.com","password": "testing"}' 'https://8wbqa5qh84.execute-api.us-east-1.amazonaws.com/dev/users/{id}'```
 
 ## Data Structure
